@@ -28,6 +28,9 @@ public class App {
             robot.keyPress( KeyEvent.VK_ENTER);//回车
         }
     }
+/**
+ 读取文件
+**/	
     public static String readFile() throws IOException {
         StringBuilder result = new StringBuilder();
         FileReader fileReader = new FileReader("E:\\msg.txt"); //消息所在位置
